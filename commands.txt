@@ -1,0 +1,21 @@
+# Initialize Git repository
+git init
+
+# Check status
+git status
+
+# Add files
+git add README.md
+git add commands.txt
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial commit"
+
+# Add remote repository
+git remote add origin <repository-link>
+
+# Push to GitHub
+git push -u origin master
